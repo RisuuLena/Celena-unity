@@ -1,0 +1,558 @@
+fileFormatVersion: 2
+guid: 5782b64d54b663d4e8fe2fa66d761123
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_01_death_animation-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 10
+        width: 120
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6804f91bd1d03478f15862ba6160b2
+      internalID: -953610085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_01_death_animation-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 16
+        width: 123
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bec79ccad3dd1d418c1573e42f1c331
+      internalID: -1620237844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_01_death_animation-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 17
+        width: 124
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30440839fa6be72428fe442e4753dfc9
+      internalID: 1224558230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_01_death_animation-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 17
+        width: 124
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad21a2c661cf134ea835d9aba94e4f1
+      internalID: -194768190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_01_death_animation-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 17
+        width: 124
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a967486bbeb925449a03eba87798b7f
+      internalID: 1232492922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_01_death_animation-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 17
+        width: 124
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd2e65b422583d41a1a95232e651edb
+      internalID: 231388088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_01_death_animation-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 17
+        width: 124
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ecd320e2854844ea9f64f871c302f6
+      internalID: -138360095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_01_death_animation-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 17
+        width: 124
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac6bb950fddaa24f81b9661d6031283
+      internalID: -1012671883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_01_death_animation-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 17
+        width: 124
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ad4c34e93bbf74cb71d11bc69f0343
+      internalID: 1995717177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_01_death_animation-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 15
+        width: 124
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e287bf02e8c27841a7ed8020ee3ea4b
+      internalID: -1234455058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_01_death_animation-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 8
+        width: 124
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1350fe6f208ce074ca32892c327257a8
+      internalID: 115811056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_01_death_animation-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 5
+        width: 126
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75992408a515f8242be5f01ca08a85af
+      internalID: 1359026953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_01_death_animation-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 6
+        width: 127
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e460ea08e9b9ca74793766fb7f18efc6
+      internalID: 1961553700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_01_death_animation-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 2
+        width: 123
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b771fb011a5339449eb6127896eab6c
+      internalID: -1864116214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_01_death_animation-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 11
+        width: 117
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d0f6df9dcf85548a5212922571d684
+      internalID: 803229055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_01_death_animation-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 12
+        width: 117
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b6e75793ba1124fa46ebe2ca528425
+      internalID: 1347986577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_01_death_animation-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 12
+        width: 117
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fd80051ce6da444841d2738fb68f93
+      internalID: -713062626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Monster_01_death_animation-Sheet_0: -953610085
+      Monster_01_death_animation-Sheet_1: -1620237844
+      Monster_01_death_animation-Sheet_10: 1232492922
+      Monster_01_death_animation-Sheet_11: 231388088
+      Monster_01_death_animation-Sheet_12: -138360095
+      Monster_01_death_animation-Sheet_13: -1012671883
+      Monster_01_death_animation-Sheet_14: 1995717177
+      Monster_01_death_animation-Sheet_15: -1234455058
+      Monster_01_death_animation-Sheet_16: 115811056
+      Monster_01_death_animation-Sheet_17: 574251480
+      Monster_01_death_animation-Sheet_18: 187233844
+      Monster_01_death_animation-Sheet_19: 1935933416
+      Monster_01_death_animation-Sheet_2: 1224558230
+      Monster_01_death_animation-Sheet_20: -1964180063
+      Monster_01_death_animation-Sheet_21: -869187039
+      Monster_01_death_animation-Sheet_22: 178548055
+      Monster_01_death_animation-Sheet_23: -1787797103
+      Monster_01_death_animation-Sheet_24: 1503125708
+      Monster_01_death_animation-Sheet_25: -1085758164
+      Monster_01_death_animation-Sheet_26: 632679036
+      Monster_01_death_animation-Sheet_27: -202696603
+      Monster_01_death_animation-Sheet_28: 736064209
+      Monster_01_death_animation-Sheet_29: 2125525217
+      Monster_01_death_animation-Sheet_3: 1359026953
+      Monster_01_death_animation-Sheet_30: -1899411364
+      Monster_01_death_animation-Sheet_31: -186408961
+      Monster_01_death_animation-Sheet_32: 16045943
+      Monster_01_death_animation-Sheet_33: -1594081606
+      Monster_01_death_animation-Sheet_34: 1390573371
+      Monster_01_death_animation-Sheet_35: 242272305
+      Monster_01_death_animation-Sheet_36: -1010003942
+      Monster_01_death_animation-Sheet_37: 1475475391
+      Monster_01_death_animation-Sheet_38: 281762446
+      Monster_01_death_animation-Sheet_39: -751496493
+      Monster_01_death_animation-Sheet_4: 1961553700
+      Monster_01_death_animation-Sheet_40: -396019238
+      Monster_01_death_animation-Sheet_41: -1293461823
+      Monster_01_death_animation-Sheet_42: 824526437
+      Monster_01_death_animation-Sheet_43: 52416123
+      Monster_01_death_animation-Sheet_44: -2065934998
+      Monster_01_death_animation-Sheet_45: 741450402
+      Monster_01_death_animation-Sheet_46: 1403295587
+      Monster_01_death_animation-Sheet_47: 1269996367
+      Monster_01_death_animation-Sheet_48: 1082374294
+      Monster_01_death_animation-Sheet_49: -1372711713
+      Monster_01_death_animation-Sheet_5: -1864116214
+      Monster_01_death_animation-Sheet_50: 643762031
+      Monster_01_death_animation-Sheet_51: -739884527
+      Monster_01_death_animation-Sheet_52: -848016372
+      Monster_01_death_animation-Sheet_53: 291179469
+      Monster_01_death_animation-Sheet_54: -854605244
+      Monster_01_death_animation-Sheet_55: 1962971686
+      Monster_01_death_animation-Sheet_56: 109008348
+      Monster_01_death_animation-Sheet_57: 860701313
+      Monster_01_death_animation-Sheet_58: 71990085
+      Monster_01_death_animation-Sheet_59: -1290985179
+      Monster_01_death_animation-Sheet_6: 803229055
+      Monster_01_death_animation-Sheet_60: 488738852
+      Monster_01_death_animation-Sheet_61: -1684634538
+      Monster_01_death_animation-Sheet_62: -1734253494
+      Monster_01_death_animation-Sheet_63: -1404539368
+      Monster_01_death_animation-Sheet_64: -454800457
+      Monster_01_death_animation-Sheet_65: 660283779
+      Monster_01_death_animation-Sheet_66: 1453969466
+      Monster_01_death_animation-Sheet_67: -667197240
+      Monster_01_death_animation-Sheet_68: -707326682
+      Monster_01_death_animation-Sheet_69: -1587235520
+      Monster_01_death_animation-Sheet_7: 1347986577
+      Monster_01_death_animation-Sheet_70: 437169302
+      Monster_01_death_animation-Sheet_71: -110749408
+      Monster_01_death_animation-Sheet_72: -1507322490
+      Monster_01_death_animation-Sheet_73: -1767935044
+      Monster_01_death_animation-Sheet_74: -647681349
+      Monster_01_death_animation-Sheet_75: 566787781
+      Monster_01_death_animation-Sheet_76: -495122316
+      Monster_01_death_animation-Sheet_77: 1556221321
+      Monster_01_death_animation-Sheet_78: -1976688282
+      Monster_01_death_animation-Sheet_79: 1864119506
+      Monster_01_death_animation-Sheet_8: -713062626
+      Monster_01_death_animation-Sheet_80: -297257964
+      Monster_01_death_animation-Sheet_81: 788298365
+      Monster_01_death_animation-Sheet_82: -424809834
+      Monster_01_death_animation-Sheet_83: 1817102638
+      Monster_01_death_animation-Sheet_84: -927954458
+      Monster_01_death_animation-Sheet_85: -1232889334
+      Monster_01_death_animation-Sheet_86: -2057131020
+      Monster_01_death_animation-Sheet_9: -194768190
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
