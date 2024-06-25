@@ -2,17 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy_2 : MonoBehaviour
 {
-    public int health = 100;
+    public int health = 60;
     public Transform player; 
     public float speed = 2.0f; 
     public float floatAmplitude = 0.5f; 
-    public float floatFrequency = 1.0f; 
+    public float floatFrequency = 3.0f; 
     public float stopDistance = 0.1f;
     public GameObject bullet;
     public Transform bulletPos;
-    public float shootingInterval = 5.0f;
 
     private float timer;
     
@@ -45,7 +44,7 @@ public class Enemy : MonoBehaviour
         }
 
         timer += Time.deltaTime;
-        if (timer > shootingInterval)
+        if (timer > 2)
         {
             timer = 0;
             shoot();
@@ -82,7 +81,7 @@ public class Enemy : MonoBehaviour
     {
         Instantiate(bullet, bulletPos.position, Quaternion.identity);
     }
-    
+
     
     public void TakeDamage(int damage)
     {
