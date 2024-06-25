@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7264320388072182348}
   - component: {fileID: -8684999370866656393}
   - component: {fileID: -7411307587947970947}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EnemyBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -163,6 +163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  damage: 20
 --- !u!95 &-7411307587947970947
 Animator:
   serializedVersion: 5

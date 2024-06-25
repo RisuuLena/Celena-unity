@@ -21,11 +21,16 @@ public class Enemy : MonoBehaviour
     private Animator animator;
 
     private bool isShooting = false;
+    
+    private GameManager gameManager;
+    private bool isDead = false; // Add a flag to prevent multiple death notifications
 
     void Start()
     {
         initialY = transform.position.y;
         animator = GetComponent<Animator>();
+        gameManager = FindObjectOfType<GameManager>();
+
     }
 
     void Update()
@@ -97,10 +102,21 @@ public class Enemy : MonoBehaviour
     void Die()
     {
         animator.SetTrigger("Death");
+        if (isDead) return; // Prevent multiple calls
+        isDead = true;
+        NotifyDeath();
     }
 
     public void OnDeathAnimationEnd()
     {
         Destroy(gameObject);
+    }
+    
+    private void NotifyDeath()
+    {
+        if (gameManager != null)
+        {
+            gameManager.EnemyKilled();
+        }
     }
 }
