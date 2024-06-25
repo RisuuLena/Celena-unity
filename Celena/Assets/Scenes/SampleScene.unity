@@ -1642,7 +1642,7 @@ MonoBehaviour:
   stopDistance: 0.1
   bullet: {fileID: 7919497389313442565, guid: de2729b8d0a4e774a8525142f18d5bcc, type: 3}
   bulletPos: {fileID: 138824566}
-  shootingInterval: 1
+  shootingInterval: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
