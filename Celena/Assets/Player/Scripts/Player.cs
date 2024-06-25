@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     public float moveSpeed = 8f;
 
     private Rigidbody2D rb;
+    private Animator animator;
 
     void Start()
     {
