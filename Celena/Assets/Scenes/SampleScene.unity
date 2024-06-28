@@ -1609,7 +1609,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 820749575}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 196920971}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: quit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &820749575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2125,7 +2137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 1190741759}
   suppressBlockAutoSelect: 0
-  waitForFrames: 50
+  waitForFrames: 60
 --- !u!114 &1190741759
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3848,8 +3860,20 @@ PrefabInstance:
       value: 51.199997
       objectReference: {fileID: 0}
     - target: {fileID: 1802904896031313782, guid: a212d83cbc2e3e64bb34e3bfab74a9c8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1802904896031313782, guid: a212d83cbc2e3e64bb34e3bfab74a9c8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 1802904896031313782, guid: a212d83cbc2e3e64bb34e3bfab74a9c8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -334.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1802904896031313782, guid: a212d83cbc2e3e64bb34e3bfab74a9c8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -10
+      value: -28
       objectReference: {fileID: 0}
     - target: {fileID: 2537770114132586318, guid: a212d83cbc2e3e64bb34e3bfab74a9c8, type: 3}
       propertyPath: m_Name
@@ -3934,6 +3958,22 @@ PrefabInstance:
     - target: {fileID: 5307854542011120666, guid: a212d83cbc2e3e64bb34e3bfab74a9c8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957402033728038455, guid: a212d83cbc2e3e64bb34e3bfab74a9c8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 69.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957402033728038455, guid: a212d83cbc2e3e64bb34e3bfab74a9c8, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 63.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957402033728038455, guid: a212d83cbc2e3e64bb34e3bfab74a9c8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -34.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957402033728038455, guid: a212d83cbc2e3e64bb34e3bfab74a9c8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 31.18
       objectReference: {fileID: 0}
     - target: {fileID: 7812890290992985935, guid: a212d83cbc2e3e64bb34e3bfab74a9c8, type: 3}
       propertyPath: m_Camera

@@ -34,11 +34,23 @@ public class GameManager : MonoBehaviour
     public void gameOver()
     {
         gameOverUI.SetActive(true);
+        FindObjectOfType<TimeScaleManager>().PauseGame();
     }
 
     public void restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Debug.Log("Restart");
+        if (FindObjectOfType<TimeScaleManager>().IsGamePaused())
+        {
+            FindObjectOfType<TimeScaleManager>().ResumeGame();
+        }
+    }
+
+    public void quit()
+    {
+        Application.Quit();
+        Debug.Log("Quit");
     }
 
     

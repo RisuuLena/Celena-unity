@@ -3,14 +3,24 @@ guid: dd3df822a38c0b74b87e73e80ad44638
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
-  fontSize: 16
-  forceTextureCase: -2
+  fontSize: 300
+  forceTextureCase: -1
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
   fontNames:
   - DePixel
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4c5d0f980a0d8d14e8612f0391faba24, type: 3}
+  - {fileID: 12800000, guid: b3ae7da289925094894c94ccc0dbf841, type: 3}
+  - {fileID: 12800000, guid: ba87cfea32afe9743a85f9d6fdb0b9ef, type: 3}
+  - {fileID: 12800000, guid: 1aae2d072e539844e9dd42913a041f66, type: 3}
+  - {fileID: 12800000, guid: dceb99a9c6d7fd24796144581982ca61, type: 3}
+  - {fileID: 12800000, guid: 7ff41be67eece1244b2c6639329ef81a, type: 3}
+  - {fileID: 12800000, guid: 049bb19b419a79e4a801353e6e9a7b75, type: 3}
+  - {fileID: 12800000, guid: ba1164b250ca3584eb16dd46ee3094f4, type: 3}
+  - {fileID: 12800000, guid: 681efe0cf1f198849b06c2b989590aa3, type: 3}
+  - {fileID: 12800000, guid: 4b4e7fef6b0220d48b5ee5d2fa96a768, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
