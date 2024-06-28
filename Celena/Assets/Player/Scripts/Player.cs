@@ -10,12 +10,18 @@ public class Player : MonoBehaviour
     public float moveSpeed = 8f;
     public int health = 100;
 
+    public HealthBar healthBar;
+    public GameManager gameManager;
+
     private Rigidbody2D rb;
     private Animator animator;
 
+    private bool isDead;
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        healthBar.SetHealth(health);
     }
 
     void Update()
@@ -26,10 +32,13 @@ public class Player : MonoBehaviour
     public void TakeDamage(int damage)
     {
         health -= damage;
+        healthBar.SetHealth(health);
 
-        if (health <= 0)
+        if (health <= 0 && !isDead)
         {
+            isDead = true;
             Die();
+            gameManager.gameOver();
         }
     }
     
